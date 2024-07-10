@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <a href="#" class="logo">Anugrah Syawal</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portofolios">Portofolio</a></li>
+        <li><a href="#skills">Certification</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="download-cv">
+          <a
+            href="https://drive.google.com/file/d/1k2FAsKugWG8Hn9C53EOeQnCbQHED-i6W/view?usp=sharing"
+            target="_blank"
+          >
+            Download CV
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Home section -->
+  <section class="home" id="home">
+    <div class="home-text">
+      <h2>Hello, I'm</h2>
+      <h1>
+        Anugrah Syawal <br />
+        Syamdi Putra
+      </h1>
+      <p>
+        Mahasiswa IT yang berdedikasi dan berpengalaman dalam pengembangan perangkat lunak, 
+        cloud computing, IT support dan data engineering.
+      </p>
+      <div class="home-links">
+        <a href="#portofolios" class="home-btn">View Projects</a>
+        <a href="https://www.linkedin.com/in/username" target="_blank" class="home-btn linkedin-btn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/username" target="_blank" class="home-btn github-btn"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--Portofolios-->
+  <section id="portofolios">
+    <div class="portofolios main-container">
+      <h3 class="pre-title">My Projects</h3>
+      <h1 class="section-title">Featured Portofolios</h1>
+      <div class="grid-3">
+        <!--Portofolios 1-->
+        <div class="portofolio">
+          <div class="portofolio-cover">
+            <a href="https://anugrahsyawal.github.io/bulukumba-destination-frontend-design/"><img src="./img/bulukumba-destination-frontend-design.png" alt="Gambar 1" /></a>
+          </div>
+          <div class="portofolio-info">
+            <div class="portofolio-title">
+              <h4>Web Frontend Destinasi Pariwisata Bulukumba</h4>
+              <a href="https://github.com/anugrahsyawal/bulukumba-destination-frontend-design" target="_blank" class="home-btn github-btn" style="padding:1.5%;"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="portofolio-tags">
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>JS</div>
+            </div>
+            <p>
+              Projek ini adalah sebuah website yang bertujuan untuk mempromosikan destinasi pariwisata di Bulukumba, Sulawesi Selatan. Website ini dirancang dengan tampilan yang menarik dan user-friendly agar dapat menarik minat pengunjung untuk mengunjungi Bulukumba.
+            </p><br>
+            <h4>Rincian tugas: </h4>
+            <p>• Desain UI/UX</p>
+            <p>• Implementasi HTML & CSS</p>
+            <p>• Integrasi Responsif</p>
+          </div>
+        </div>
+
+        <!--Portofolios 2-->
+        <div class="portofolio">
+          <div class="portofolio-cover">
+            <img src="./img/app-cek-ongkir.png" alt="Gambar 1" />
+          </div>
+          <div class="portofolio-info">
+            <div class="portofolio-title">
+              <h4>Aplikasi Cek Ongkir</h4>
+              <a href="https://github.com/anugrahsyawal/app-cek-ongkir" target="_blank" class="home-btn github-btn" style="padding:1.5%;"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="portofolio-tags">
+              <div>PHP</div>
+              <div>HTML</div>
+              <div>RESTful API</div>
+            </div>
+            <p>
+              Aplikasi ini memanfaatkan layanan dari API RajaOngkir untuk memungkinkan pengguna melakukan pengecekan ongkos kirim dari suatu kota asal ke kota tujuan dengan berbagai pilihan jasa kurir. Aplikasi dibangun menggunakan PHP untuk mengelola permintaan data ke API RajaOngkir secara dinamis.
+            </p><br>
+            <h4>Fitur Aplikasi: </h4>
+            <p>
+              • Pengguna dapat memilih provinsi dan kota asal serta tujuan secara fleksibel.
+            </p>
+            <p>
+              • Pengguna dapat memasukkan berat paket dalam gram untuk perhitungan ongkos kirim.
+            </p>
+            <p>
+              • Pengguna dapat memilih jasa kurir seperti JNE, TIKI, atau POS Indonesia sesuai preferensi atau kebutuhan pengiriman.
+            </p>
+            <p>
+              • Menampilkan hasil perhitungan ongkos kirim dan estimasi waktu pengiriman berdasarkan pilihan pengguna.
+            </p>
+          </div>
+        </div>
+
+        <!--Portofolios 3-->
+        <div class="portofolio">
+          <div class="portofolio-cover">
+            <img src="./img/currency-converter-app.png" alt="Gambar 1" />
+          </div>
+          <div class="portofolio-info">
+            <div class="portofolio-title">
+              <h4>Aplikasi Konversi Mata Uang</h4>
+              <a href="https://github.com/anugrahsyawal/currency-converter-app" target="_blank" class="home-btn github-btn" style="padding:1.5%;"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="portofolio-tags">
+              <div>PHP</div>
+              <div>HTML</div>
+              <div>RESTful API</div>
+            </div>
+            <p>
+              Aplikasi Konversi Mata Uang memungkinkan pengguna untuk dengan cepat menghitung nilai tukar antara mata uang berbagai negara dengan menggunakan data real-time dari APILayer. Aplikasi ini dirancang untuk memberikan kemudahan dan kecepatan dalam melakukan konversi mata uang sehari-hari.
+            </p><br>
+              <h4>Fitur Aplikasi: </h4>
+            <p>
+              • Memilih mata uang asal dan tujuan untuk konversi.
+            </p>
+            <p>
+              • Tampilan hasil konversi secara langsung dengan nilai tukar terkini.
+            </p>
+            <p>
+              • Penggunaan antarmuka sederhana untuk pengalaman pengguna yang intuitif.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-3">
+        <!--Portofolios 4-->
+        <div class="portofolio">
+          <div class="portofolio-cover">
+            <img src="./img/cpu-list.jpeg" alt="Gambar 1" />
+          </div>
+          <div class="portofolio-info">
+            <div class="portofolio-title">
+              <h4>CPU Info REST API</h4>
+              <a
+                href="https://github.com/anugrahsyawal/cpu-list-api/tree/master"
+                target="_blank" class="home-btn github-btn" style="padding:1.5%;"><i class="fab fa-github"></i>
+              </a>
+            </div>
+            <div class="portofolio-tags">
+              <div>NodeJs</div>
+              <div>RESTful API</div>
+            </div>
+            <p>
+              Project ini bertujuan untuk menyediakan informasi lengkap tentang berbagai jenis prosesor (CPU) yang tersedia di pasar saat ini. Proyek ini dibangun untuk membantu pengguna dalam memilih prosesor yang sesuai dengan kebutuhan mereka, baik untuk penggunaan pribadi maupun profesional.
+            </p><br>
+              <h4>Fitur Aplikasi: </h4>
+            <p>
+              • Pencarian dan Filtrasi: Pengguna dapat mencari prosesor berdasarkan merek, seri, kecepatan, dan parameter lainnya.
+            </p>
+            <p>
+              • Informasi Detail: Setiap prosesor dilengkapi dengan informasi teknis, performa, dan kompatibilitas.
+            </p>
+          </div>
+        </div>
+
+        <!--Portofolios 5-->
+        <div class="portofolio">
+          <div class="portofolio-cover">
+            <img src="./img/camera-hack.jpg" alt="Gambar 1" />
+          </div>
+          <div class="portofolio-info">
+            <div class="portofolio-title">
+              <h4>Camera Hacking with Socket Programming</h4>
+              <a
+                href="https://github.com/anugrahsyawal/camera-hacking-streaming-socket"
+                target="_blank" class="home-btn github-btn" style="padding:1.5%;"><i class="fab fa-github"></i>
+              </a>
+            </div>
+            <div class="portofolio-tags">
+              <div>Python</div>
+              <div>Netcat</div>
+              <div>Batchfile</div>
+            </div>
+            <p>
+              Proyek ini mengeksplorasi teknik hacking kamera dan streaming video melalui jaringan menggunakan socket programming dengan Python. Proyek ini dilakukan dalam kerangka edukatif untuk memahami dan menerapkan konsep-konsep dasar dari socket programming dan pengolahan video real-time.
+            </p><br>
+            <h4>Rincian tugas: </h4>
+            <p>• Pengembangan Skrip Server</p>
+            <p>• Pengembangan Skrip Klien</p>
+            <p>• Transfer Data</p>
+            <p>• Automasi Batch Script</p>
+          </div>
+        </div>
+        <!--Portofolios 6-->
+        <div class="portofolio">
+          <div class="portofolio-cover">
+            <img src="./img/gcsb2.jpeg" alt="Gambar 1" />
+          </div>
+          <div class="portofolio-info">
+            <div class="portofolio-title">
+              <h4>Google Cloud Skills Boost</h4>
+              <a
+                href="https://www.cloudskillsboost.google/public_profiles/7c10885a-188f-4f6a-952c-68f3cef7e441"
+                class="portofolio-link"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M3 0l18 15h-11.081l-6.919 9z" />
+                </svg>
+              </a>
+            </div>
+            <div class="portofolio-tags">
+              <div>Cloud Computing</div>
+              <!-- <div>React</div> -->
+            </div>
+            <p>
+              Saya telah menyelesaikan beberapa kursus dan pelatihan di Google Cloud Skills Boost, yang bertujuan untuk mendalami penggunaan berbagai layanan dan alat yang tersedia di Google Cloud Platform (GCP). Program ini memberikan kesempatan bagi saya untuk mempelajari dan menerapkan konsep-konsep penting dalam komputasi awan melalui praktik langsung dan proyek praktis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end portofolios-->
+
+  <!--skills and education-->
+  <section id="skills">
+    <div class="skills main-container">
+      <h3 class="pre-title">learning path</h3>
+      <h1 class="section-title">Training and Certification:</h1>
+
+      <div class="skills-grid">
+        <div class="skills-left">
+          <!--education 1-->
+          <div class="education">
+            <div class="line">
+              <div></div>
+            </div>
+            <div class="education-info">
+              <h4 class="education-title">
+                Google IT Support (May-July 2024)
+              </h4>
+              <p>Coursera</p>
+            </div>
+          </div>
+          <!--education 2-->
+          <div class="education">
+            <div class="line">
+              <div></div>
+            </div>
+            <div class="education-info">
+              <h4 class="education-title">
+                Certificate of Completion Bangkit Academy (Batch 2 - 2023)
+              </h4>
+              <p>Specializing in Cloud Computing</p>
+            </div>
+          </div>
+          <!--education 3-->
+          <!-- <div class="education">
+                      <div class="line">
+                          <div></div>
+                      </div>
+                      <div class="education-info">
+                          <h4 class="education-title">Politeknik Negeri Ujung Pandang</h4>
+                          <p>Computer enginering</p>
+                          <h4 class="education-years">2021 - Present</h4>
+                      </div>
+                  </div> -->
+        </div>
+        <div class="skills-right">
+          <h4>Explore My Skills</h4>
+          <div class="skills-list">
+            <ul>
+              <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+              <li>Sistem Operasi (Linux, Windows)</li>
+              <li>Programming (MySQL, JavaScript, Python, Java, PHP)</li>
+              <li>API Integration</li>
+            </ul>
+
+            <ul>
+              <li>Communication</li>
+              <li>Team Work and
+                Collaboration</li>
+              <li>Adaptability</li>
+              <li>Leadership</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end skills and education-->
+    
+  <!--contact-->
+  <section id="contact">
+    <div class="contact main-container">
+      <div class="contact-left">
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/moqggqov"
+          method="POST"
+        >
+          <div>
+            <input type="text" placeholder="Name" name="name" />
+          </div>
+          <div>
+            <input type="email" placeholder="Email" name="email" />
+          </div>
+          <div>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div>
+            <button class="btn-submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+      <div class="contact-right">
+        <!--contact-item 1-->
+        <div class="contact-item">
+          <div class="contact-item-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 3c2.131 0 4 1.73 4 3.702 0 2.05-1.714 4.941-4 8.561-2.286-3.62-4-6.511-4-8.561 0-1.972 1.869-3.702 4-3.702zm0-2c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm8 6h-3.135c-.385.641-.798 1.309-1.232 2h3.131l.5 1h-4.264l-.344.544-.289.456h.558l.858 2h-7.488l.858-2h.479l-.289-.456-.343-.544h-2.042l-1.011-1h2.42c-.435-.691-.848-1.359-1.232-2h-3.135l-4 8h24l-4-8zm-12.794 6h-3.97l1.764-3.528 1.516 1.528h1.549l-.859 2zm8.808-2h3.75l1 2h-3.892l-.858-2z"
+              />
+            </svg>
+          </div>
+          <div class="contact-item-detail">
+            <h4>Address</h4>
+            <p>Makassar, Sulawesi Selatan</p>
+          </div>
+        </div>
+        <!--contact-item 2-->
+        <div class="contact-item">
+          <div class="contact-item-icon">
+            <svg
+              width="24"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M8.26 1.289l-1.564.772c-5.793 3.02 2.798 20.944 9.31 20.944.46 0 .904-.094 1.317-.284l1.542-.755-2.898-5.594-1.54.754c-.181.087-.384.134-.597.134-2.561 0-6.841-8.204-4.241-9.596l1.546-.763-2.875-5.612zm7.746 22.711c-5.68 0-12.221-11.114-12.221-17.832 0-2.419.833-4.146 2.457-4.992l2.382-1.176 3.857 7.347-2.437 1.201c-1.439.772 2.409 8.424 3.956 7.68l2.399-1.179 3.816 7.36s-2.36 1.162-2.476 1.215c-.547.251-1.129.376-1.733.376"
+              />
+            </svg>
+          </div>
+          <div class="contact-item-detail">
+            <h4>Phone</h4>
+            <p>(+62) 85656085376</p>
+          </div>
+        </div>
+        <!--contact-item 3-->
+        <div class="contact-item">
+          <div class="contact-item-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"
+              />
+            </svg>
+          </div>
+          <div class="contact-item-detail">
+            <h4>Email</h4>
+            <p>nugrahsyawal@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+    <!-- link to js -->
+    <script type="text/javascript" src="js/script.js"></script>
+  </section>
+  <!--end contact-->
+
+  <!--footer-->
+  <footer>
+  </footer>
+  <!--end footer-->
+</body>
+<script src="scripts/main.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"
+></script>
+</html>
